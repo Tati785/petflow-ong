@@ -113,7 +113,7 @@ function App() {
               <h4>📍 O que temos hoje</h4>
               {listaEstoque.map(p => (
                 <div key={p.id} className="item-lista-estoque">
-                  <span>{p.nome}: <strong>{p.quantidade} un</strong></span>
+                  <span>{p.nome}: <strong>{p.quantidade} Kg</strong></span>
                   <button onClick={() => excluirProdutoEHistorico(p)} className="btn-lixo">🗑️</button>
                 </div>
               ))}
