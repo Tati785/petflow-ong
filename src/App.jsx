@@ -86,7 +86,7 @@ function App() {
   return (
     <div className="container-geral">
       <header className="topo">
-        <h1>🐾 Lupaa - Gestão ONG </h1>
+        <h1>🐾 Gestão ONG </h1>
         <div className="abas-navegacao">
           <button onClick={() => setAbaAtiva('estoque')} className={abaAtiva === 'estoque' ? 'btn-aba ativa' : 'btn-aba'}>📦 Estoque</button>
           <button onClick={() => setAbaAtiva('financeiro')} className={abaAtiva === 'financeiro' ? 'btn-aba ativa' : 'btn-aba'}>💰 Financeiro</button>
