@@ -124,7 +124,7 @@ function App() {
                 {historicoMovs.map(h => (
                   <div key={h.id} className={`log-movimento ${h.operacao}`}>
                     <small>{h.dataHora}</small>
-                    <p>{h.nome}: {h.operacao === 'entrada' ? '+' : '-'}{h.qtd} un</p>
+                    <p>{h.nome}: {h.operacao === 'entrada' ? '+' : '-'}{h.qtd} Kg</p>
                   </div>
                 ))}
               </div>
